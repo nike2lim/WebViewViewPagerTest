@@ -65,6 +65,7 @@ class ViewPagerAdapter(val mContext : Context, val mData : List<String>, val vie
                 isHorizontalScrollBarEnabled = false
                 isVerticalScrollBarEnabled = false
                 webViewClient = mWebViewClient
+				setLayerType(View.LAYER_TYPE_SOFTWARE, null)
             }
 
 

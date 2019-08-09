@@ -12,8 +12,7 @@
             android:supportsRtl="true"
             android:theme="@style/AppTheme">
         <activity android:name="co.kr.shlim.webviewpagertest.MainActivity"
-                  android:hardwareAccelerated="true"
-                  android:configChanges="orientation|keyboardHidden|screenSize">
+                  android:configChanges="orientation|screenSize|keyboard|keyboardHidden|navigation" />
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
 
